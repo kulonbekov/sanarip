@@ -717,4 +717,24 @@
     <option value="5">EXPORT</option>
   </selection>
 
+  <selection name="contact.address.country.select" id="base.contact.address.country.select">
+    <option value='KGS'>Kyrgyzstan</option>
+    <option value="KZ">Kazakhstan</option>
+  </selection>
+
+  <selection name="contact.address.region.select" id="base.contact.address.region.select">
+    <option value="0" >Bishkek</option>
+    <option value="1" >Osh</option>
+    <option value="2" >Batken</option>
+    <option value="3" >Chuy</option>
+    <option value="4" >Jalal-Abad</option>
+    <option value="5" >Naryn</option>
+    <option value="6" >Osh</option>
+    <option value="7" >Talas</option>
+    <option value="8" >Issyk-Kul</option>
+    <option value="9" >Almaty</option>
+  </selection>
+
+
+
 </object-views>

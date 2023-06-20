@@ -1082,4 +1082,19 @@
   <menuitem name="studio-app-root" id="base-studio-app-root" title="App" order="-250"
     icon="fa-pencil-square-o" icon-background="purple" if="__config__.app.isApp('studio')"/>
 
+  <menuitem name="menu-contact-book"
+            title="Address Book" />
+
+  <menuitem name="menu-contact-friends"
+            parent="menu-contact-book"
+            title="All Contact"
+            action="contact.all"/>
+
+  <action-view name="contact.all"
+               title="Contacts"
+               model="com.axelor.apps.base.db.Contact">
+    <view type="grid" name="contact-grid"/>
+    <view type="form" name="contact-form"/>
+  </action-view>
+
 </object-views>
