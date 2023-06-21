@@ -9,7 +9,6 @@
     <entity name="ContactAddress">
         <many-to-one name="contact" ref="Contact" required="true" />
         <string name="street" required="true" max="255" />
-        <!--<string name="area" max="255" />-->
         <string name="village" />
         <string name="area" />
         <string name="region" selection="contact.address.region.select"  />

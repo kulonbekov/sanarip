@@ -723,16 +723,16 @@
   </selection>
 
   <selection name="contact.address.region.select" id="base.contact.address.region.select">
-    <option value="0" >Bishkek</option>
-    <option value="1" >Osh</option>
-    <option value="2" >Batken</option>
-    <option value="3" >Chuy</option>
-    <option value="4" >Jalal-Abad</option>
-    <option value="5" >Naryn</option>
-    <option value="6" >Osh</option>
-    <option value="7" >Talas</option>
-    <option value="8" >Issyk-Kul</option>
-    <option value="9" >Almaty</option>
+    <option value="0" depends="contact.address.country.select='KGS'">Bishkek</option>
+    <option value="1" depends="contact.address.country.select='KGS'">Osh</option>
+    <option value="2" depends="contact.address.country.select='KGS'">Batken</option>
+    <option value="3" depends="contact.address.country.select='KGS'">Chuy</option>
+    <option value="4" depends="contact.address.country.select='KGS'">Jalal-Abad</option>
+    <option value="5" depends="contact.address.country.select='KGS'">Naryn</option>
+    <option value="6" depends="contact.address.country.select='KGS'">Osh</option>
+    <option value="7" depends="contact.address.country.select='KGS'">Talas</option>
+    <option value="8" depends="contact.address.country.select='KGS'">Issyk-Kul</option>
+    <option value="9" depends="contact.address.country.select='KZ'">Almaty</option>
   </selection>
 
 

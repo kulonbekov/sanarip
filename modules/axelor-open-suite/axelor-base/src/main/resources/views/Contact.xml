@@ -42,12 +42,12 @@
         <panel-related name="addressesPanel"
                    field="addresses"
                    form-view="address-form-popup">
-            <field name="country"/>
-            <field name="region"/>
+            <field name="country" dynamic-update="true"/>
+            <field name="region" dynamic-update="true"/>
             <field name="area"/>
             <field name="village"/>
             <field name="street"/>
-        <!--<field name="area"/>-->
+
 
 
 
@@ -65,8 +65,8 @@
         title="Address"
         model="com.axelor.apps.base.db.Address">
     <panel title="Overview">
-        <field name="country"/>
-        <field name="region"/>
+        <field name="country" dynamic-update="true"/>
+        <field name="region" dynamic-update="true"/>
         <field name="area"/>
         <field name="village"/>
         <field name="street"/>
